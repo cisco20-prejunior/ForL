@@ -7,13 +7,13 @@ body{
     background-color: rgb(241, 217, 241);
 }
 h1{
-    font-size: 3.5em;
-}
-h2{
     font-size: 3em;
 }
+h2{
+    font-size: 2.7em;
+}
 p{
-    font-size: 2.5em;
+    font-size: 2.1em;
     font-weight: 400;
     width: 97%;
 }
