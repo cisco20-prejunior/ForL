@@ -19,6 +19,7 @@ p{
     font-weight: 400;
     width: 97%;
     margin-left: 1em;
+    z-index: 3;
 }
 main{
     display: flex;
@@ -40,18 +41,21 @@ main{
     flex-flow: column;
 }
 i{
-    color: rgba(233, 131, 253, 0.685);
+    color: rgba(153, 131, 253, 0.671);
     animation: latir 1.5s linear infinite alternate-reverse;
     position: absolute;
-    right:  10px;
-    top: 20px;
+    right:  50%;
+    top: 50%;
+    transform: translateX(50%) translateY(-50%);
+    position: -2;
 }
 .div img{
     height: 100%;
     width: 100%;
     position: absolute;
     z-index: -1;
-    filter: opacity(50%);
+    filter: opacity(40%) blur(5px);
+    border-radius: 20px;
 }
 .div_1 img{
     width: 100%;
@@ -59,9 +63,9 @@ i{
 }
 @keyframes latir{
     from{
-        font-size: 1em;
+        font-size: 10em;
     }
     to{
-        font-size: 1.8em;
+        font-size: 20em;
     }    
 }
